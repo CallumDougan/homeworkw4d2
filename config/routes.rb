@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get '/welcome', to: 'home#welcome'
 
   get '/search', to: 'home#search'
+  get '/search_fail', to: 'home#search_fail'
 
 
   get '/taps', to: 'products#taps'

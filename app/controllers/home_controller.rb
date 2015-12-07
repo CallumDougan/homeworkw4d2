@@ -11,7 +11,8 @@ class HomeController < ApplicationController
     when 'taps' then redirect_to('/taps')
     when 'showers' then redirect_to('/showers')
     when 'baths' then redirect_to('/baths')
-    else render 'menu'
+    when 'emergency' || 'repair' then redirect_to('/emergency_repair')
+    else redirect_to('/search_fail')
     end
   end
 
