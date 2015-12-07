@@ -40,6 +40,16 @@ a {
   border-style: solid;
 }
 
+a:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+button:hover{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
 div {
   clear: both;
   margin: 20px;
