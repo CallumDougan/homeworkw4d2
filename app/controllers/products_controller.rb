@@ -9,4 +9,7 @@ class ProductsController < ApplicationController
   def baths
   end
 
+  def toilets
+  end
+
 end
