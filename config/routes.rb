@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   get '/showers', to: 'products#showers'
   get '/baths', to: 'products#baths'
   get '/toilets', to: 'products#toilets'
+
+  get '/emergency_repair', to: 'services#emergency_repair'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
